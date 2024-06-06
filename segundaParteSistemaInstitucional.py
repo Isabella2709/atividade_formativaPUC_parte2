@@ -4,7 +4,7 @@ print("================================")
 operacao = str(input("Deseja começar a fazer operações? (S - Fazer operações / N - para sair): "))
 operacao = operacao.upper()
 
-if(operacao != "N" or operacao != "S"):
+if(operacao != "N" and operacao != "S"):
   print("Opção invalida")
   operacao = str(input("Deseja começar a fazer operações? (S - Fazer operações / N - para sair): "))
   operacao = operacao.upper()
